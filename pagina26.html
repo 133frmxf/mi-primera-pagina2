@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barber Charli</title>
+  <meta name="description" content="Barber Charli - Barbería profesional, cortes modernos y clásicos. Reserva tu cita." />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-color: #000000;
+      color: #FFFFFF;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in {
+      animation: fadeIn 1.5s ease-out;
+    }
+  body,td,th {
+    color: #2C02FF;
+}
+  </style>
+</head>
+<body class="min-h-screen bg-black text-white">
+
+  <!-- Encabezado principal -->
+  <header class="relative bg-cover bg-center py-24" style="background-image: url('Barberia/tu-imagen-hero.jpg');">
+    <div class="absolute inset-0 bg-gradient-to-b from-black via-black/70 to-black"></div>
+    <div class="relative container mx-auto px-4 text-center fade-in">
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-4 uppercase tracking-golden">
+      <i class="fas fa-cut mr-2"></i><strong>"Barber Charli"</strong></h1>
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-4 uppercase tracking-wide"><a href="Barberia/LOGO.png"><strong> &nbsp;</strong><i class="fas fa-scissors ml-2"></i></a><center>
+  <img src="Barberia/LOGO.png" alt="Descripción de la imagen" width="567" height="543">
+      </center></h1>
+<p class="text-lg md:text-2xl mb-6"><strong>Creando estilo con pasión y detalle</strong></p>
+      <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full transition text-lg font-semibold">
+        Reserva tu cita
+      </a>
+    </div>
+</header>
+
+  <!-- Sección de Servicios -->
+  <section class="py-16 bg-gray-900 fade-in">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12"><i class="fas fa-chair mr-2"></i>Nuestros Servicios</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div class="bg-gray-800 p-6 rounded shadow">
+          <i class="fas fa-user mr-2 text-3xl mb-2"></i>
+          <h3 class="text-2xl font-bold mb-2">Corte Clásico</h3>
+          <p>Estilo limpio y profesional.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded shadow">
+          <i class="fas fa-bolt mr-2 text-3xl mb-2"></i>
+          <h3 class="text-2xl font-bold mb-2">Fade Moderno</h3>
+          <p>Para un look más actual y casual.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded shadow">
+          <i class="fas fa-razor mr-2 text-3xl mb-2"></i>
+          <h3 class="text-2xl font-bold mb-2">Afeitado</h3>
+          <p>Rasurado preciso y comodo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section class="py-16 bg-black fade-in">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12"><i class="fas fa-images mr-2"></i>Galería de Estilos de Cortes</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <img src="Barberia/corte1.jpg" alt="Corte clásico peinado hacia atrás" class="w-full h-auto rounded shadow">
+        <img src="Barberia/corte6.jpg" alt="Fade moderno con diseño" class="w-full h-auto rounded shadow">
+        <img src="Barberia/corte8.jpg" alt="Afeitado clásico con navaja" class="w-full h-auto rounded shadow">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 bg-blue-700 text-golden fade-in">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12"><i class="fas fa-phone-alt mr-2"></i>Información de Contacto</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div>
+          <h3 class="text-2xl font-bold"><i class="fas fa-phone mr-2"></i>Numero de Teléfono</h3>
+          <p><strong>+52 2321548539</strong></p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold"><i class="fas fa-map-marker-alt mr-2"></i>Dirección del Local</h3>
+          <p><strong>Detrás del mercado municipa</strong>l</p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold"><i class="fas fa-clock mr-2"></i>Horario de Apertura</h3>
+          <p><strong>Lunes a Viernes de 2:00pm a 8:00pm</strong></p>
+          <p><strong>Sábado y Domingo de 10:00am a 7:00pm</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8 fade-in">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2025 Barber Charli. <i class="fas fa-scissors"></i></p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
